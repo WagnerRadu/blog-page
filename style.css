@@ -1,0 +1,129 @@
+:root {
+    --title-font: 'Montserrat', sans-serif;
+    --h1-font-size: 46px;
+    --h2-font-size: 34px;
+    --h3-font-size: 28px;
+    --black: #1e1e1eff;
+    --grey: #9b9b9bff;
+    --pink: #ffe3e3ff;
+    --text-font: 'Cardo', serif;
+    --text-font-size: 14px;
+}
+
+.container {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 130px;
+    justify-content: flex-end;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-left: 100px;
+    font-family: var(--title-font);
+    font-size: 11px;
+    color: var(--black);
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 130px 0 90px 0;
+}
+
+.button {
+    background: none;
+    border-radius: 50px;
+    height: 60px;
+    line-height: 18px;
+    width: 300px;
+    font-family: var(--title-font);
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid var(--grey);
+    cursor: pointer;
+}
+
+.title {
+    font-family: var(--title-font);
+    font-size: var(--h1-font-size);
+    color: var(--black);
+    line-height: 57px;
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.details-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.details-item {
+    margin-left: 20px;
+    font-family: var(--title-font);
+    font-size: var(--text-font-size);
+    line-height: 18px;
+    color: var(--grey)
+}
+
+.details-item + .details-item::before {
+    content: "•";
+    margin-right: 20px;
+}
+
+.details-span {
+    color: var(--black);
+    font-weight: bold;
+}
+
+.edit-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.edit-button {
+    background: none;
+    border: none;
+    font-family: var(--title-font);
+    font-size: var(--text-font-size);
+    font-weight: bold;
+    line-height: 18px;
+    cursor: pointer;
+}
+
+.image {
+    height: 720px;
+}
+
+.text {
+    font-family: var(--text-font);
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--black);
+    width: 780px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
