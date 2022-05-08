@@ -49,6 +49,7 @@
 }
 
 .button {
+    box-sizing: border-box;
     background: none;
     border-radius: 50px;
     height: 60px;
@@ -56,6 +57,7 @@
     width: 300px;
     font-family: var(--title-font);
     font-size: 14px;
+    font-weight: bold;
     text-align: center;
     border: 1px solid var(--grey);
     cursor: pointer;
@@ -116,6 +118,10 @@
     cursor: pointer;
 }
 
+.article {
+    margin-bottom: 100px;
+}
+
 .image {
     height: 720px;
 }
@@ -147,4 +153,75 @@
     border: none;
     cursor: pointer;
     padding: 0;
+}
+
+.modal-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+    background-color: #FFFFFFFF;
+    width: 1000px;
+    height: 750px;
+    border: 1px solid var(--grey);
+    box-shadow: 0, 0, 26px, 6px, black;
+}
+
+.modal-button-container {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 75px 50px 75px;
+}
+
+.bg-pink {
+    background-color: var(--pink);
+}
+
+.modal-title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 25px;
+}
+
+.modal-form {
+    box-sizing: border-box;
+    border: 1px solid var(--grey);
+    border-radius: 5px;
+    width: 400px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 0;
+    margin-bottom: 25px;
+    font-family: var(--text-font);
+    font-size: 18px;
+    color: var(--grey);
+    line-height: 25px;
+}
+
+.url-form {
+    width: 850px;
+}
+
+.content-form {
+    width: 850px;
+    height: 275px;
+    margin-bottom: 0;
 }
