@@ -30,13 +30,16 @@
 
 .nav-item {
     margin-left: 100px;
-    font-family: var(--title-font);
+    /* font-family: var(--title-font);
     font-size: 11px;
-    color: var(--black);
+    color: var(--black); */
 }
 
 .nav-link {
     text-decoration: none;
+    font-family: var(--title-font);
+    font-size: 11px;
+    color: var(--black);
 }
 
 .button-container {
@@ -126,4 +129,22 @@
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
+}
+
+.footer {
+    display: flex;
+    margin: 35px 0 100px 0;
+    justify-content: space-between;
+}
+
+.footer-button {
+    background: none;
+    font-family: var(--title-font);
+    font-size: var(--h2-font-size);
+    line-height: 42px;
+    font-weight: bold;
+    color: var(--black);
+    border: none;
+    cursor: pointer;
+    padding: 0;
 }
