@@ -166,6 +166,8 @@
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
 }
 
 .modal {
@@ -224,4 +226,9 @@
     width: 850px;
     height: 275px;
     margin-bottom: 0;
+}
+
+.modal-active {
+    visibility: visible;
+    opacity: 1;
 }
