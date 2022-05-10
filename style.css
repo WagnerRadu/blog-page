@@ -226,6 +226,7 @@
     width: 850px;
     height: 275px;
     margin-bottom: 0;
+    resize: none;
 }
 
 .modal-active {
